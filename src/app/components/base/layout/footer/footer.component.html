@@ -1,0 +1,21 @@
+<footer>
+  <div class="footer-block">
+  <div class="info">
+    <custom-button label="UpSkillup" color="primary"></custom-button>
+    <p>Clarity gives you the blocks and components you need to create a truly professional website.</p>
+  </div>
+
+  <div class="link-blocks">
+    <div *ngFor="let items of footerItems" class="block">
+      <div *ngFor="let el of items">
+        <a href="{{el.path}}">{{el.label}}</a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="privacy">
+    <p>All right reserved by Bazaochi Dumitru 2023</p>
+    <p>Privacy & Policy   |   Terms & Conditions</p>
+  </div>
+</footer>

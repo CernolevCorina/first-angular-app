@@ -1,0 +1,33 @@
+@import "../../../../../styles";
+
+nav {
+  padding: 10px 380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 1px 10px 0 #CD65301A;
+  background: $accent;
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+    a {
+      text-decoration: none;
+      color: $warn
+    }
+  }
+
+  .actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px
+  }
+}

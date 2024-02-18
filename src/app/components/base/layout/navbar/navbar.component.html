@@ -1,0 +1,16 @@
+<nav>
+  <custom-button label="UpSkillup" color="primary"></custom-button>
+
+  <ul class="nav-links">
+    <li *ngFor="let item of navbarItems">
+      <a href="{{item.path}}">
+        {{item.label}}
+      </a>
+    </li>
+  </ul>
+
+  <div class="actions">
+    <mat-icon> mail_outline</mat-icon>
+    <custom-button label="Login" color="primary"></custom-button>
+  </div>
+</nav>

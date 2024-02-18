@@ -1,0 +1,45 @@
+@import "../../../../../styles";
+
+.footer-block {
+  padding: 100px 380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .info {
+    max-width: 260px;
+  }
+
+  .block {
+    :first-child {
+      a {
+        color: $primary
+      }
+    }
+  }
+
+
+  .link-blocks {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+
+    div{
+      padding-bottom: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $warn;
+    }
+  }
+}
+
+.privacy {
+  background: $primary;
+  color: $accent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 380px;
+}
